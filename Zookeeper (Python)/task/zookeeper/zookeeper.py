@@ -125,9 +125,7 @@ animals = [camel, lion, deer, goose, bat, rabbit]
 while True:
     habitat_index = input("Please enter the number of the habitat you would like to view: ")
     if habitat_index == "exit":
-        print("See you later!")  # Corrected indentation
+        print("See you later!")
         break
     habitat = int(habitat_index)  # Convert input to integer
-    print("Switching on the camera in the", animals[habitat], "habitat...")
     print(animals[habitat])
-    print("The", animals[habitat], "is staring intently at you... Maybe it's time to change the channel?")  # Corrected formatting
